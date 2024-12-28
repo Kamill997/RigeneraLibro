@@ -1,0 +1,88 @@
+.dropdown-menu {
+    background-color: #1e1e1e;
+    border: 1px solid #ff6600;
+    margin-top: 0.5rem;
+    min-width: 160px;
+    padding: 0.5rem 0;
+    margin: 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+}
+
+.dropdown-item:hover {
+    background-color: #ff6600;
+    color: #000000;
+}
+
+.dropdown-divider {
+    border-top: 1px solid #ff6600;
+}
+
+#navbarDropdown img {
+    width: 40px;
+    height: 40px;
+}
+
+.dropdown-menu {
+    background-color: #1e1e1e;
+}
+
+.dropdown-item:hover {
+    background-color: #ff6600;
+    color: #000000;
+}
+
+.navbar {
+    background: linear-gradient(to right, #1e1e1e, #6a0dad);
+    border-bottom: 3px solid #ff6600;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: #ffffff !important;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ff6600 !important;
+    transform: translateY(-2px);
+}
+
+.nav-item {
+    margin-right: 1rem;
+}
+
+#search-form {
+    margin: 1rem 0 1rem;
+    margin-left: 25% !important;
+    width: 35%;
+}
+
+#search-input {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+
+#search-input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#search-button {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+#search-button:hover {
+    background-color: #e55c00;
+    border-color: #e55c00;
+}

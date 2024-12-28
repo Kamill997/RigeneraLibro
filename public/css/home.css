@@ -1,0 +1,181 @@
+:root {
+    --primary-color: #ff6b00;
+    --primary-color-dark: #e65100;
+    --secondary-color: #6a1b9a;
+    --accent-color: #ffc107;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    transition: all 0.3s ease;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.navbar .container {
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.accordion {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.accordion-body {
+    text-align: center;
+    padding: 1.5rem;
+}
+
+textarea.form-control {
+    resize: none;
+    overflow-y: hidden;
+    min-height: 100px;
+}
+
+#comeFunziona .row {
+    align-items: center;
+    justify-content: center;
+}
+
+#comeFunziona .col-md-6 {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar.visible {
+    visibility: visible;
+    background-color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.navbar.visible .navbar-brand img {
+    opacity: 1;
+    width: auto;
+}
+
+.site-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar-brand img {
+    transition: all 0.3s ease;
+    opacity: 0;
+    width: 0;
+    height: 30px;
+}
+
+.navbar.scrolled {
+    background-color: rgba(255, 255, 255, 0.95) !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.scrolled .navbar-brand img {
+    transform: scale(0.9);
+}
+
+.hero-section {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+#hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+}
+
+.side-btn {
+    position: fixed;
+    right: -150px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-radius: 8px 0 0 8px;
+    box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    opacity: 0;
+}
+
+.side-btn .visible {
+    right: 0;
+    opacity: 1;
+}
+
+.side-btn:hover {
+    background-color: var(--primary-color-dark);
+    padding-right: 1.5rem;
+}
+
+.side-btn a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-color-dark);
+    border-color: var(--primary-color-dark);
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.text-primary {
+    color: var(--primary-color) !important;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.accordion-button:focus {
+    box-shadow: 0 0 0 0.25rem rgba(255, 175, 80, 0.25);
+}
+
+.post-success-notification.show {
+    opacity: 1;
+    transform: translateY(0);
+}

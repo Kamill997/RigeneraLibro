@@ -1,0 +1,380 @@
+body {
+    display: flex;
+    color: black;
+    height: 100%;
+    margin: 0;
+    padding: 8px;
+    background: #d2d2d2;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+body {
+    display: flex;
+    color: black;
+    min-height: 100vh;
+    margin: 0;
+    padding: 8px;
+    background: #d2d2d2;
+    border-radius: 10px;
+    background-size: cover;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.Contenitore {
+    width: 100%;
+    display: flex;
+    margin: 5%;
+    margin-left: 15%;
+    background: rgb(255, 255, 255);
+    max-width: 1000px;
+}
+
+.pick {
+    width: 60%;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.Contenitore .Credenziali {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Form styles */
+h1 {
+    color: black;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+form {
+    width: 85%;
+}
+
+.login-input {
+    font-size: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 17px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contenitore-password {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#showPassword {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #888;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+h1.title {
+    color: black;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="password"] {
+    background: darkgray;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background: black;
+    border-radius: 4px;
+    padding: 8px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+}
+
+.Nomi {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.Nomi div {
+    margin: 0 10px;
+}
+
+form div {
+    margin: 5px 10px;
+}
+
+form span {
+    opacity: 0;
+    font-size: 11px;
+}
+
+form div,
+.Nomi div {
+    text-align: right;
+}
+
+form div * {
+    text-align: left;
+}
+
+.errore span {
+    opacity: 1;
+    font-size: 11px;
+    color: #ff0011;
+    display: flex;
+}
+
+.errore input {
+    border-color: #fa1c2c;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(10, 85, 0);
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    .Contenitore {
+        margin: 0;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .pick {
+        width: 100%;
+        height: 200px;
+    }
+
+    .Contenitore .Credenziali {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    form {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .Nomi {
+        flex-direction: column;
+    }
+
+    .Nomi div {
+        margin: 5px 0;
+        width: 100%;
+    }
+
+    .login-input {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .Contenitore {
+        margin: 0;
+    }
+
+    form {
+        padding: 0 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .login-input {
+        font-size: 16px;
+        padding: 12px;
+    }
+
+    input[type="submit"] {
+        padding: 12px;
+        font-size: 16px;
+    }
+
+    form div {
+        margin: 5px 0;
+    }
+}
+
+body,
+input,
+button,
+textarea {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.Contenitore {
+    width: 100%;
+    display: flex;
+    margin: 5%;
+    margin-left: 15%;
+    background: rgb(255, 255, 255);
+    max-width: 1000px;
+}
+
+.contenitore-password {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.login-input {
+    padding-right: 40px;
+}
+
+#showPassword .fa {
+    margin-bottom: 20px;
+}
+
+#showPassword {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #888;
+    position: absolute;
+    right: -40px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.pick {
+    width: 60%;
+    background-size: cover;
+}
+
+.Contenitore .Credenziali {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+form {
+    width: 85%;
+}
+
+.login-input {
+    font-size: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 17px;
+    width: 100%;
+}
+
+h1.title {
+    color: black;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="password"] {
+    background: darkgray;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background: black;
+    border-radius: 4px;
+    padding: 8px;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+}
+
+input {
+    width: 100%;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.Nomi {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.Nomi div {
+    margin: 0 10px;
+}
+
+form div {
+    margin: 5px 10px;
+}
+
+form span {
+    opacity: 0;
+    font-size: 11px;
+}
+
+form div,
+.Nomi div {
+    text-align: right;
+}
+
+form div * {
+    text-align: left;
+}
+
+.errore span {
+    opacity: 1;
+    font-size: 11px;
+    color: #ff0011;
+    display: flex;
+}
+
+.errore input {
+    border-color: #fa1c2c;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(10, 85, 0);
+}
