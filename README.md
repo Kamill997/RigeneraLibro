@@ -3,13 +3,13 @@
     <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="150" alt="Laravel Logo">
   </a>
   <a href="https://www.javascript.com" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" width="100" alt="JavaScript Logo">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" width="75" alt="JavaScript Logo">
   </a>
   <a href="https://getbootstrap.com" target="_blank">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" width="100" alt="Bootstrap Logo">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" width="75" alt="Bootstrap Logo">
   </a>
   <a href="https://pusher.com" target="_blank">
-    <img src="https://avatars.githubusercontent.com/u/739550?v=4" width="100" alt="Pusher Logo">
+    <img src="https://avatars.githubusercontent.com/u/739550?v=4" width="75" alt="Pusher Logo">
   </a>
 </p>
 
