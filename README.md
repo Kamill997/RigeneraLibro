@@ -29,8 +29,7 @@
 </p>
 
 <h2>RigeneraLibro</h1>
-    <h3>Web Application Thesis</h3>
-    <p>For the <span class="highlight">purchase</span> and <span class="highlight">sale</span> of used university books</p>
+    <h3>Web Application Thesis for the <span class="highlight">purchase</span> and <span class="highlight">sale</span> of used university books </h3> 
     <p>
         <strong>!! This version is still under development !!</strong>
     </p>
