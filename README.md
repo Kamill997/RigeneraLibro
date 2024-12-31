@@ -31,12 +31,6 @@
 <h2>RigeneraLibro</h1>
     <h3>Web Application Thesis for the <span class="highlight">purchase</span> and <span class="highlight">sale</span> of used university books </h3> 
     <p>
-        <strong>!! This version is still under development !!</strong>
+        <strong>!! This version is still under development for better responsiveness, design and new features (with the addition of appropriate external APIs) !!</strong>
     </p>
-<div class="note">
-        <p>
-            This project is being actively improved for <strong>better responsiveness</strong>, enhanced <strong>design</strong>, and the addition of 
-            exciting <strong>new features</strong>. We also plan to integrate <strong>external APIs</strong> to enrich its functionality.
-        </p>
-</div>
 
