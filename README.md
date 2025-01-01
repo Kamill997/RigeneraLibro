@@ -52,7 +52,7 @@
     </tr>
     <tr>
       <td align="center">
-        <img src="Img%20sito/Post-png" alt="Post Page" width="300"/><br />
+        <img src="Img%20sito/Post.png" alt="Post Page" width="300"/><br />
         <sub><b>Post Page</b></sub>
       </td>
       <td align="center">
