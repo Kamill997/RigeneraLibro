@@ -34,5 +34,5 @@
         <strong>!! This version is still under development for better responsiveness, design and new features (with the addition of appropriate external APIs) !!</strong>
     </p>
 
-![Welcome Page](Img sito/Welcome.png)
+![Welcome Page](Img%20sito/Welcome.png)
 
