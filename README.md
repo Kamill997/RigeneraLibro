@@ -34,5 +34,32 @@
         <strong>!! This version is still under development for better responsiveness, design and new features (with the addition of appropriate external APIs) !!</strong>
     </p>
 
-![Welcome Page](Img%20sito/Welcome.png)
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="Img%20sito/Welcome.png" alt="Welcome Page" width="200"/><br />
+        <sub><b>Welcome Page</b></sub>
+      </td>
+      <td align="center">
+        <img src="Img%20sito/Auth.jpg" alt="Auth Page" width="200"/><br />
+        <sub><b>About Page</b></sub>
+      </td>
+      <td align="center">
+        <img src="Img%20sito/Home.png" alt="Home Page" width="200"/><br />
+        <sub><b>Services Page</b></sub>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">
+        <img src="Img%20sito/Post-png" alt="Post Page" width="200"/><br />
+        <sub><b>Portfolio Page</b></sub>
+      </td>
+      <td align="center">
+        <img src="Img%20sito/Chat.png" alt="Chat Page" width="200"/><br />
+        <sub><b>Contact Page</b></sub>
+      </td>
+    </tr>
+  </table>
+</div>
 
