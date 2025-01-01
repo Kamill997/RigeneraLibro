@@ -52,8 +52,8 @@
     </tr>
     <tr>
       <td align="center">
-        <img src="Img%20sito/Post.png" alt="Post Page" width="300"/><br />
-        <sub><b>Post Page</b></sub>
+        <img src="Img%20sito/Post.png" alt="Creation Post" width="300"/><br />
+        <sub><b>Creation Post</b></sub>
       </td>
       <td align="center">
         <img src="Img%20sito/Chat.png" alt="Chat Page" width="300"/><br />
