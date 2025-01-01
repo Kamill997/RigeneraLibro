@@ -38,26 +38,26 @@
   <table>
     <tr>
       <td align="center">
-        <img src="Img%20sito/Welcome.png" alt="Welcome Page" width="200"/><br />
+        <img src="Img%20sito/Welcome.png" alt="Welcome Page" width="300"/><br />
         <sub><b>Welcome Page</b></sub>
       </td>
       <td align="center">
-        <img src="Img%20sito/Auth.jpg" alt="Auth Page" width="200"/><br />
-        <sub><b>About Page</b></sub>
+        <img src="Img%20sito/Auth.jpg" alt="Auth Page" width="300"/><br />
+        <sub><b>Auth Page</b></sub>
       </td>
       <td align="center">
-        <img src="Img%20sito/Home.png" alt="Home Page" width="200"/><br />
-        <sub><b>Services Page</b></sub>
+        <img src="Img%20sito/Home.png" alt="Home Page" width="300"/><br />
+        <sub><b>Home Page</b></sub>
       </td>
     </tr>
     <tr>
       <td align="center">
-        <img src="Img%20sito/Post-png" alt="Post Page" width="200"/><br />
-        <sub><b>Portfolio Page</b></sub>
+        <img src="Img%20sito/Post-png" alt="Post Page" width="300"/><br />
+        <sub><b>Post Page</b></sub>
       </td>
       <td align="center">
-        <img src="Img%20sito/Chat.png" alt="Chat Page" width="200"/><br />
-        <sub><b>Contact Page</b></sub>
+        <img src="Img%20sito/Chat.png" alt="Chat Page" width="300"/><br />
+        <sub><b>Chat Page</b></sub>
       </td>
     </tr>
   </table>
